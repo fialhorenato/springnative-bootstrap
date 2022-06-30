@@ -1,0 +1,19 @@
+POST {{base_url}}/security/login
+Content-Type: application/json
+
+{
+  "username" : "renato",
+  "password" : "pass2005bh"
+}
+
+
+### Create User
+
+POST {{base_url}}/security/signup
+Content-Type: application/json
+
+{
+  "username" : "renato",
+  "password" : "pass2005bh",
+  "email" : "renato@renatofialho.com"
+}
